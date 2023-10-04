@@ -1,5 +1,5 @@
 import { pool } from "../../externals/postgres.js";
-import { getPagination } from "../../middleware/index.js";
+import { getPagination } from "../../helpers/index.js";
 
 export const create = async (req, res, next) => {
   try {
